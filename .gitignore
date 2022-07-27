@@ -198,3 +198,11 @@ gradle-app.setting
 .classpath
 
 # End of https://www.toptal.com/developers/gitignore/api/java,gradle,intellij+all,windows,macos
+/.idea/
+/fastcampus-project-board/.idea/.gitignore
+/fastcampus-project-board/.idea/.name
+/fastcampus-project-board/.idea/compiler.xml
+/fastcampus-project-board/.idea/gradle.xml
+/fastcampus-project-board/.idea/jarRepositories.xml
+/fastcampus-project-board/.idea/misc.xml
+/fastcampus-project-board/.idea/vcs.xml

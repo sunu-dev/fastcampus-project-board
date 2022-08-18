@@ -18,6 +18,9 @@ spring:
     username : sunu
     password : thisisTESTpw!@#$
     driver-class-name : com.mysql.cj.jdbc.Driver
+#  url : jdbc:h2:mem:testdb
+#  username : sa
+#  driver-class-name : org.h2.driver
   jpa :
      defer-datasource-initialization: true
      hibernate.ddl-auto: create
@@ -28,7 +31,7 @@ spring:
 
   h2:
     console:
-      enabled: true
+      enabled: false
   sql:
     init:
       mode: always

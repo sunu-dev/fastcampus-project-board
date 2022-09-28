@@ -1,6 +1,5 @@
 package com.fastcampus.projectboard.config;
 
-
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -32,8 +31,6 @@ public class ThymeleafConfig {
          * Use Thymeleaf 3 Decoupled Logic
          */
         private final boolean decoupledLogic;
-
     }
-
 
 }

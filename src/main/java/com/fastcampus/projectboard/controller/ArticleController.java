@@ -15,13 +15,16 @@ public class ArticleController {
     @GetMapping
     public String articles(ModelMap map) {
         map.addAttribute("articles", List.of());
+
         return "articles/index";
     }
 
     @GetMapping("/{articleId}")
     public String article(@PathVariable Long articleId, ModelMap map) {
-        map.addAttribute("article", "article"); //TODO:구현할떄 여기에 실제 데이터 삽입
-        map.addAttribute("articleComments", "articleComments");
+        map.addAttribute("article", "article"); // TODO: 구현할 때 여기에 실제 데이터를 넣어줘야 한다
+        map.addAttribute("articleComments", List.of());
+
         return "articles/detail";
     }
+
 }
